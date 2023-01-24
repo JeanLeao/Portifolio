@@ -37,6 +37,10 @@
   display: none;
 }
 
+.mobile{
+  display: none;
+}
+
 body,html {
   overflow-x: hidden;
     width: 100%;
@@ -321,19 +325,19 @@ ul li a:hover {
 }
 
 .qnt-front{
-  width: 65%;
+  width: 75%;
   background-color: crimson;
   height: 100%;
 }
 
 .qnt-back{
-  width: 60%;
+  width: 80%;
   background-color: #3d8b09;
   height: 100%;
 }
 
 .qnt-design{
-  width: 90%;
+  width: 80%;
   background-color: blueviolet;
   height: 100%;
 }

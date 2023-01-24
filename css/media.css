@@ -3,6 +3,9 @@
   .typewriter, .imgeu-pc{
     display: none;
  }
+ .mobile{
+  display: block;
+}
  .no{
   justify-content: center;
  }
