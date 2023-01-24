@@ -2,7 +2,7 @@ const ctx = document.getElementById('myChart').getContext('2d');
 const myChart = new Chart(ctx, {
     type: 'pie',
     data: {
-        labels: ['JAVA', 'JAVA-SCRIPT', 'WORDPRESS', 'CSS', 'HTML', 'NODE', 'REACT-NATIVE', 'FLUTTER'],
+        labels: ['JAVA', 'JAVA-SCRIPT', 'SOCKET.IO', 'MONGODB', 'EXPRESS', 'NODE', 'REACT / REACT-NATIVE', 'FLUTTER'],
         datasets: [{
             data: [70, 60, 40, 70, 90, 60, 70, 50],
             
