@@ -1,0 +1,452 @@
+
+::-webkit-scrollbar {
+  width: 11px;
+  height: 11px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #53d058;
+  border: 2px solid #ffffff;
+  border-radius: 100px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #53d058;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #53d058;
+}
+::-webkit-scrollbar-track {
+  background: #212121;
+  border: 0px none #ffffff;
+  border-radius: 100px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #212121;
+}
+::-webkit-scrollbar-track:active {
+  background: #212121;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+.mob {
+  display: none;
+  }
+ .typewriter-mob{
+  display: none;
+}
+
+body {
+  overflow-x: hidden;
+    height: 300%;
+    background-color: #232323;
+    margin: 0;
+  }
+
+  
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 300%;
+  }
+
+
+  .sobre{
+    width: 60%;
+  }
+
+  .sobremim{
+    margin-left: 20%;
+    margin-bottom: 20%;
+    margin-top: -270vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .headertext{
+    margin-left: 0%;
+    color: white;
+    font-family: monospace;
+    font-size: 18px;
+    margin-top: 2px;
+  }
+
+  .eu{
+    margin-right: -10%;
+  }
+  
+  .imgeu{
+    width: 35%;
+    height: 100%;
+    border-radius: 100%;
+    box-shadow: 0px 5px 15px rgb(158, 153, 153);
+  }
+
+  .imgeu-pc{
+    width: 37%;
+    height: 120%;
+    margin-top: -5vh;
+    border-radius: 100%;
+    box-shadow: 0px 5px 15px rgb(158, 153, 153);
+  }
+
+  <!--MY NAME
+  .typewriter{
+    font-size: 25px;
+    margin-top: 80px;
+  }
+
+  .typewriter h1 {
+    font-size: 25px;
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #3d8b09; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .0em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+
+  
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #00FA9A }
+  }
+
+<!--ICONS SOCIAL MEDIA--
+
+  ul{position: absolute;
+  }
+
+  ul li {
+    list-style: none; 
+    float: left; 
+    margin-left: -6%;
+    margin-right:10%;
+  }
+  ul li a {
+    display:block;
+    position:relative; 
+    text-align: center;
+    font-size: 30px; 
+    color:#777; 
+    border-radius:50%; 
+    width: 40px; 
+    height: 40px; 
+    line-height: 40px; 
+    background: #333; 
+    transition:.5s;
+  }
+  ul li a:before {
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border-radius:50%;
+    background:lime;
+    transition: .5s;
+    visibility: hidden;
+    transform: scale(1);
+    z-index:-1;
+  }
+  ul li a:hover:before {
+    visibility: visible;
+    transform: scale(1.1);
+    box-shadow: 0 1 10px lime;
+  }
+ul li a:hover {
+  color:lime;
+  box-shadow: 0 0 5px lime;
+}
+
+
+<!--CORPO
+
+.corpo{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+ .cards{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 40vh;
+}
+
+
+
+.projeto{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 3%;
+  width: 15em;
+  height: 24em;
+  background-color: #333;
+}
+
+
+
+.projeto:hover .dentro {
+  margin-bottom: -0.2em;
+  margin-left: -0.2em;
+  width: 15.4em;
+  height: 2,5em;
+  border-bottom-left-radius: 3%;
+  border-bottom-right-radius: 3%;
+  background-color: rgba(119, 119, 119, 0.877);
+}
+
+
+
+
+
+.projeto:hover{
+  cursor: pointer;
+  padding: 0.2em;
+  margin-bottom: -0.4em;
+  margin-left: -0.2em;
+  margin-right: -0.2em;
+  box-shadow: 3px 5px 5px rgba(255, 255, 255, 0.034);
+}
+
+
+.dentro{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: #777;
+  width: 15em;
+  height: 12%;
+  border-bottom-left-radius: 3%;
+  border-bottom-right-radius: 3%;
+}
+
+
+#link{
+  color:rgb(203, 207, 207);
+  
+  margin-right: 0.2em;
+}
+
+.skill{
+  position: absolute;
+  width: 4em;
+  height: 4em;
+  margin-bottom: -20em;
+}
+
+#skill-java, #skill-js, #skill-css, #skill-html, #skill-reactnative, #skill-flutter, #skill-node, #skill-wordpress{
+  visibility: hidden;
+  z-index: 999;
+}
+
+.tecnology{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#skill:hover {
+  cursor: pointer;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 150%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+.chartbox{
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
+  height: 20em;
+}
+
+
+.text{
+  display: flex;
+  margin-left: 5%;
+  flex-direction: column;
+  width: 50%;
+}
+
+.bar-skill{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#bar{
+  background-color: #777;
+  margin-left: 13%;
+  width: 77%;
+  height: 0.7vh;
+}
+
+.qnt-front{
+  width: 65%;
+  background-color: crimson;
+  height: 100%;
+}
+
+.qnt-back{
+  width: 60%;
+  background-color: #3d8b09;
+  height: 100%;
+}
+
+.qnt-design{
+  width: 90%;
+  background-color: blueviolet;
+  height: 100%;
+}
+
+#bar-text{
+  color: #fff;
+  font-size: 16px;
+  margin-left: 6em;
+  width: 6em;
+  height: 2vh;
+  margin-top: 1em;
+  margin-bottom: 4px;
+}
+
+.footer{
+  width: 100%;
+}
+.Titlefooter{
+  color: #00FA9A;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.textfooter{
+  color: #fff;
+  font-size: 18px;
+  font-family: monospace;
+}
+
+.experience{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.experiencereal{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.no{
+  background-color: rgba(119, 119, 119, 0.089);
+  border-radius: 5px;
+  width: 20em;
+  height: 7em;
+  margin-left: 5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-no{
+  color: #777;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text-no{
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  font-size: 14px;
+  font-family: monospace;
+}
+
+
+.neon-button {
+  display: flex;
+  font-size: 1rem;
+  font-family: monospace;
+  border: 0.3rem solid #00FA9A;
+  width: 6rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  box-shadow: 0 0 25px #3e8b306b, 0 0 25px #3e8b3077 inset;
+  text-shadow: 0 0 30px white;
+  transition: background 0.35s, color 0.3s, all 0.5s;
+  color: white;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+.neon-button::after {
+  pointer-events: none;
+  content: "";
+  width: 6rem;
+  height: 6rem;
+  background: #3d8b30;
+  position: absolute;
+  top: 53vh;
+  transform: perspective(10em) rotateX(40deg) translateZ(0.5rem) scale(1, 0.5);
+  opacity: 0.2;
+  filter: blur(2rem);
+  transition: transform 0.2s;
+}
+
+.neon-button:hover {
+  cursor: pointer;
+  background: #3d8b30;
+  box-shadow: 0 0 45px #3d8b30, 0 0 45px #00FA9A inset;
+}
+
+.neon-button:hover::after {
+  transform: perspective(5em) rotateX(40deg) translateZ(3rem) scale(0, 0);
+}
