@@ -4,7 +4,7 @@
     display: none;
  }
  .mobile{
-  display: block;
+  display: flex;
 }
  .no{
   justify-content: center;
@@ -43,12 +43,26 @@ body {
 }
 .all-content-project{
   position: absolute;
-  top: 80%;
+  top: 5%;
 }
 .cards{
   margin-bottom: 10vh;
 }
-
+.imgeu{
+  margin: auto;
+  margin-bottom: 20px;
+}
+.sobre{
+  margin: auto;
+}
+.sobremim {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 20%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
 .neon-button {
   margin: auto;
 }
