@@ -37,7 +37,7 @@
               <li><a href="https://github.com/jeanleao"><i class="fa-brands fa-github"></i></a></li>
           </ul>
         </div>
-        <button class="neon-button">Curriculo</button>
+        <button onclick="baixarCurriculo()" class="neon-button">Curriculo</button>
       </div>
         <img  class="imgeu-pc" src="./Img/Eu.png" alt="Eu">
     </section>
@@ -144,7 +144,13 @@
 
     <script src="js/vanilla-tilt.min.js"></script>
     <script src="js/chart-api.js"></script>
-    <script src="js/chart.js"></script>       
+    <script src="js/chart.js"></script>
 </div>
 </body>
 </html>
+<script>
+  function baixarCurriculo(){
+    alert('Obrigado!')
+    window.location.href='./jeansilvaCV.pdf'
+  }
+</script>
