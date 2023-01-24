@@ -40,9 +40,9 @@
   display: none;
 }
 
-body {
+body,html {
   overflow-x: hidden;
-    height: 300%;
+    width: 100%;
     background-color: #232323;
     margin: 0;
   }
@@ -60,7 +60,9 @@ body {
   }
 
   .sobremim{
-    margin-left: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     margin-bottom: 20%;
     margin-top: -270vh;
     justify-content: center;
@@ -88,8 +90,9 @@ body {
   }
 
   .imgeu-pc{
-    width: 37%;
-    height: 120%;
+    margin-left: 10px;
+    width: 20%;
+    height: 50%;
     margin-top: -5vh;
     border-radius: 100%;
     box-shadow: 0px 5px 15px rgb(158, 153, 153);
