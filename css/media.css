@@ -28,7 +28,6 @@ body {
 }
  .mob{
   display: flex;
-  margin-top: -700%;
   margin-left: 40%;
  }
  .headertext{
@@ -59,7 +58,7 @@ body {
   }
 
   .sobremim{
-    margin-top: -390%;
+    margin-top: -420%;
   }
 
  .cards{
